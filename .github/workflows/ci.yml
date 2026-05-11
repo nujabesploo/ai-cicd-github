@@ -25,9 +25,9 @@ jobs:
       - name: Run tests
         run: pytest -v
 s
-            - name: Build package
+      - name: Build package
         run: python -m build
-
+        
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
