@@ -1,7 +1,6 @@
 """Tests for app.py - you'll add more!"""
 
-from app import add, is_even, reverse_string
-
+from app import add, is_even, reverse_string, multiply
 
 class TestMath:
     """Tests for math functions."""
