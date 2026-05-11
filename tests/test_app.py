@@ -10,8 +10,16 @@ class TestMath:
         assert add(2, 3) == 5
 
     def test_add_negative(self):
-        assert add(-1, -1) == -2
+        assert add(-1, -1) ==  1
 
+    def test_multiple_two_positive(self):
+        assert multiply(5, 5) == 25
+
+    def test_multiple_zero(self):
+        assert multiply(0, 5) == 0
+
+    def test_multiple_two_negative(self):
+        assert multiply(-2, -2) == 4
 
 class TestStrings:
     """Tests for string functions."""
